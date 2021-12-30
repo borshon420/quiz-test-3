@@ -35,7 +35,7 @@ const Home: React.FC = () => {
     
 
     return (
-        <div>
+        <div data-testid="home">
             <h2>Online MCQ</h2>
             <form
             onSubmit={handleSubmit}>
